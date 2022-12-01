@@ -1,1 +1,2 @@
 This module helps make outfit suggestions based on temperature and chance of rain inputed by user. The application recquires a python istallation of Pip and Pillow. The module consists of a single function that returns, nothing but rather outputs an image based on preset conditions. User has two inputs, rain, and temperature, which must be integers. 
+This module cannot run without pip and user inputs
