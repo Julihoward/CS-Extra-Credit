@@ -5,7 +5,7 @@ print("This is an app to help with clothe recommendations based on the weather."
 
 rain = int(input("What is the chance of rain in your location today?"))
 
-temperature = input("What is the celsius temperature of your location today")
+temperature = int(input("What is the celsius temperature of your location today"))
 def recommend_outfit(rain, temperature):
     if rain > 30 and rain < 50:
         print("You should have umbrella handy")
